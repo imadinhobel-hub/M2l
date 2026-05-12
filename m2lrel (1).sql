@@ -2740,11 +2740,11 @@ CREATE TABLE IF NOT EXISTS `utilisateur` (
 --
 
 INSERT INTO `utilisateur` (`idUser`, `nom`, `prenom`, `login`, `mdp`, `typeUser`, `idClub`, `idLigue`, `idFonction`) VALUES
-(1, 'machin', 'bidule', 'mbidule', '$2y$10$lGOd1HelsxBTPN4dDCO.H.aEBjcamxsXQriGwOAi/WoY50yMFGphm', 'Bénévol', NULL, NULL, 1),
-(2, 'bidule', 'machin', 'bmachin', 'bidule', 'salarié', NULL, NULL, 1),
-(3, 'Ali', 'Newton', 'nali', 'nali', 'Secrétaire', NULL, NULL, 2),
-(4, 'Gassiot--Le Pipe', 'Bastien', 'bgassiot', '$2y$10$9LkDwas4.KYzxqlCSzZn5.C7DV7nseqIYPTZsrjSf15aOYrUQJv5.', 'DRH', NULL, NULL, 3),
-(5, 'helie', 'cédric', 'chelie', 'chelie', 'Formateur', NULL, NULL, 4);
+(1, 'Dupont', 'Jean', 'jdupont', 'jdupont', 'Bénévol', NULL, NULL, 1),
+(2, 'Martin', 'Marie', 'mmartin', 'mmartin', 'salarié', NULL, NULL, 1),
+(3, 'Durand', 'Paul', 'pdurand', 'pdurand', 'Secrétaire', NULL, NULL, 2),
+(4, 'Bernard', 'Lucie', 'lbernard', 'lbernard', 'DRH', NULL, NULL, 3),
+(5, 'Petit', 'Hugo', 'hpetit', 'hpetit', 'Formateur', NULL, NULL, 4);
 
 -- --------------------------------------------------------
 
